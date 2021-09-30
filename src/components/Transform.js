@@ -20,7 +20,7 @@ const Transform = () => {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <button className="btn-transform">Learn More</button>
+          <button className="btns btn-transform">Learn More</button>
         </div>
       </section>
     </>
