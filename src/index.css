@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --soft-red: hsl(7, 99%, 70%);
@@ -20,14 +23,46 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraunces", sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
 
-img {
-  min-width: 100%;
-}
-
 body {
   font-family: "Barlow", sans-serif;
+}
+
+/* Showcase Component */
+.showcase {
+  background: url("./images/mobile/image-header.jpg") no-repeat center/cover;
+  height: 512px;
+}
+
+.showcase .overlay {
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

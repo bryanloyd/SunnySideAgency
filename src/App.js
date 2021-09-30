@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Showcase from "./components/Showcase";
+
 const App = () => {
   return (
     <div>
-      <h1>SunnySide Agency Landing Page</h1>
+      <Header />
+      <Showcase />
     </div>
   );
 };
