@@ -4,6 +4,7 @@ import Showcase from "./components/Showcase";
 import StandOut from "./components/StandOut";
 import Transform from "./components/Transform";
 import GraphicDesktop from "./components/GraphicDesktop";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <div className="hidden md:block">
         <GraphicDesktop />
       </div>
+      <Testimonials />
     </div>
   );
 };
