@@ -5,6 +5,8 @@ import StandOut from "./components/StandOut";
 import Transform from "./components/Transform";
 import GraphicDesktop from "./components/GraphicDesktop";
 import Testimonials from "./components/Testimonials";
+import GridMobile from "./components/GridMobile";
+import GridDesktop from "./components/GridDesktop";
 
 const App = () => {
   return (
@@ -20,6 +22,12 @@ const App = () => {
         <GraphicDesktop />
       </div>
       <Testimonials />
+      <div className="block md:hidden">
+        <GridMobile />
+      </div>
+      <div className="hidden md:block">
+        <GridDesktop />
+      </div>
     </div>
   );
 };
