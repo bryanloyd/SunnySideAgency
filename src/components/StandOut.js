@@ -14,7 +14,7 @@ const StandOut = () => {
         </div>
 
         <div className="p-5 text-center">
-          <h2 className="text-5xl my-10">Stand out to the right audience</h2>
+          <h2 className="my-10">Stand out to the right audience</h2>
           <p className="mb-5">
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we’ll build and

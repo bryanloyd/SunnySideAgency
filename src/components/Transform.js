@@ -14,7 +14,7 @@ const Transform = () => {
         </div>
 
         <div className="p-5 text-center">
-          <h2 className="text-5xl my-10">Transform your brand</h2>
+          <h2 className="my-10">Transform your brand</h2>
           <p className="mb-5">
             We are a full-service creative agency specializing in helping brands
             grow fast. Engage your clients through compelling visuals that do
