@@ -119,6 +119,11 @@ body {
   color: hsl(213, 9%, 39%);
 }
 
+/* Footer */
+.footer {
+  background-color: #90d4c6;
+}
+
 @media (min-width: 768px) {
   .showcase {
     background: url("./images/desktop/image-header.jpg") no-repeat center/cover;
