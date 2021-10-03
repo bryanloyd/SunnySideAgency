@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import { graphicMobile } from "../data/graphic";
 
@@ -8,7 +7,7 @@ const GraphicMobile = () => {
 
   return (
     <>
-      <section>
+      <section className="graphic-mobile">
         {cards.map(({ id, image, title, text }) => (
           <article key={id} className="relative">
             <img src={image} alt={title} />

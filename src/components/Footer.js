@@ -1,4 +1,3 @@
-import React from "react";
 import facebook from "../images/icon-facebook.svg";
 import instagram from "../images/icon-instagram.svg";
 import pinterest from "../images/icon-pinterest.svg";

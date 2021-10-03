@@ -1,4 +1,3 @@
-import React from "react";
 import arrow from "../images/icon-arrow-down.svg";
 
 const Showcase = () => {

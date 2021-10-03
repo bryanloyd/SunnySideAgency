@@ -27,12 +27,6 @@ html {
   font-size: 62.5%;
 }
 
-p {
-  font-size: 1.8rem;
-  line-height: 3rem;
-  color: hsl(232, 10%, 55%);
-}
-
 img {
   max-width: 100%;
 }
@@ -69,6 +63,11 @@ h4 {
 h5 {
   font-size: 1.6rem;
   line-height: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
 }
 
 small {
@@ -114,14 +113,25 @@ body {
   justify-content: center;
 }
 
-/* Testimonials */
+/* Graphic Components */
+.graphic-mobile h3 p {
+  color: #24554a;
+}
+
+/* Testimonials Component*/
 .testimonials-header {
   color: hsl(213, 9%, 39%);
 }
 
-/* Footer */
+/* Footer Component */
 .footer {
   background-color: #90d4c6;
+}
+
+.footer button {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #2c7566;
 }
 
 @media (min-width: 768px) {
