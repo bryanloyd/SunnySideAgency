@@ -7,34 +7,38 @@ import footerLogo from "../images/footer-logo.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="footer text-center">
+      <footer className="footer p-5">
         <div>
-          <img src={footerLogo} alt="" className="block mx-auto" />
+          <img
+            src={footerLogo}
+            alt="sunnyside landing page"
+            className="block mx-auto"
+          />
         </div>
 
-        <ul className="flex items-center justify-center">
-          <li className="mx-5">
+        <ul className="flex items-center justify-center my-5">
+          <li className="mx-2">
             <button>About</button>
           </li>
-          <li className="mx-5">
+          <li className="mx-2">
             <button>Services</button>
           </li>
-          <li className="mx-5">
+          <li className="mx-2">
             <button>Projects</button>
           </li>
         </ul>
 
-        <ul className="flex items-center justify-center">
-          <li className="mx-5">
+        <ul className="flex items-center justify-center my-5">
+          <li className="mx-2">
             <img src={facebook} alt="facebook" />
           </li>
-          <li className="mx-5">
+          <li className="mx-2">
             <img src={instagram} alt="instagram" />
           </li>
-          <li className="mx-5">
+          <li className="mx-2">
             <img src={twitter} alt="twitter" />
           </li>
-          <li className="mx-5">
+          <li className="mx-2">
             <img src={pinterest} alt="pinterest" />
           </li>
         </ul>
